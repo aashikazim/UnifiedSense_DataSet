@@ -16,20 +16,25 @@ timestamp, gesture_trial_number, gesture_type
 
 # C2, C3, C4
 timestamp_start: trigger start from the gesture
+
 timestamp_end: trigger end from the gesture
 
 ==> This actually refers to when the swipe starts and when the swipe ends.
+
 ==> I used timestamp_end for segmentation
 
 *labels.txt* in ring2headphone, ring2watch, watch2headphone
+
 gesture_trial_number, gesture_type, timestamp_start, timestamp_end 
 
 
 # for all three files: glassSensor1.txt, ringSensor1.txt, watchSensor1.txt
 timestamp, device_id, acc_x, acc_y, acc_z, qw, qx, qy, qz
 
-device_id: 1 - watch, 2 - ring, 3 - glassSensor1
+device_id: 1 - watch, 2 - ring, 3 - glass
+
 3-axes acceleration: (acc_x, acc_y, acc_z)
+
 quaternion (4-tuples): qw, qx, qy, qz
 
 
