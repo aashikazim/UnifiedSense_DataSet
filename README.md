@@ -1,5 +1,6 @@
 # UnifiedSense Dataset
 This repository contains the dataset used in the paper titled *"UnifiedSense: Enabling Without-Device Gesture Interactions Using Over-the-shoulder Training Between Redundant Wearable Sensors"*, published in *Proceedings of the ACM on Human-Computer Interaction 7 (MHCI)*.
+https://dl.acm.org/doi/abs/10.1145/3604277
 
 ## Citation
 If you've used this in your research or project, consider citing the associated paper:
